@@ -8,3 +8,17 @@
 
 import Foundation
 
+class Tiger {
+    var name: String
+    var isHungry: Bool
+    
+    init(name: String) {
+        self.name = name
+        self.isHungry = true
+    }
+    
+    func eat() {
+        isHungry = false
+    }
+}
+
